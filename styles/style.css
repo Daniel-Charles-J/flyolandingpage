@@ -176,3 +176,328 @@ li{
     display: flex;
     gap: 10px;
   }
+
+  @media only screen and (max-width: 600px) {
+    .h1{
+      font-size: 35px;
+      text-align: center;
+    }
+    
+    .p{
+      font-size: 15px;
+      text-align: center;
+    }
+    
+    .h2{
+      color: white;
+      font-size: 25px;
+      text-align: center
+    }
+    
+    .p1{
+      color: white;
+      font-size: 12px;
+      text-align: center
+    }
+    .main .section1, .main .section2 {
+      flex-direction: column-reverse;
+    }
+  
+    .main .section1 .sec1-left, .main .section2 .sec2-left{
+      width: 100%;
+    }
+    
+    .main .section1 .sec1-left .buttons{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .main .section1 .sec1-left .buttons .email{
+      width: 50%;
+    }
+    
+    .main .section1 .sec1-left .buttons .btn{
+      width: 50%;
+    }
+    .main .section1 .sec1-right, .main .section2 .sec2-right{
+      width: 100%;
+    }
+  
+    .img{
+      width: 50%;
+      height: 300px;
+    }
+  
+    .hr{
+      display: none;
+    }
+  
+    .main .section2 .sec2-left{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .main .section3{
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .main .section3 .sec3-right{
+      align-items: center;
+    }
+  
+    .sec4-bottom ul li{
+      font-size: 12px;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .h1{
+      font-size: 40px;
+      text-align: center;
+    }
+    
+    .p{
+      font-size: 17px;
+      text-align: center;
+    }
+    
+    .h2{
+      color: white;
+      font-size: 30px;
+      text-align: center
+    }
+    
+    .p1{
+      color: white;
+      font-size: 15px;
+      text-align: center
+    }
+    .main .section1, .main .section2 {
+      flex-direction: column-reverse;
+    }
+  
+    .main .section1 .sec1-left, .main .section2 .sec2-left{
+      width: 100%;
+    }
+    
+    .main .section1 .sec1-left .buttons{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .main .section1 .sec1-left .buttons .email{
+      width: 50%;
+    }
+    
+    .main .section1 .sec1-left .buttons .btn{
+      width: 50%;
+    }
+    .main .section1 .sec1-right, .main .section2 .sec2-right{
+      width: 100%;
+    }
+  
+    .img{
+      width: 50%;
+      height: 300px;
+    }
+  
+    .hr{
+      display: none;
+    }
+  
+    .main .section2 .sec2-left{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .main .section3{
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .main .section3 .sec3-right{
+      align-items: center;
+    }
+  
+    .sec4-bottom ul li{
+      font-size: 14px;
+    }
+    
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .h1{
+      font-size: 40px;
+      text-align: center;
+    }
+    
+    .p{
+      font-size: 17px;
+      text-align: center;
+    }
+    
+    .h2{
+      color: white;
+      font-size: 30px;
+      text-align: center
+    }
+    
+    .p1{
+      color: white;
+      font-size: 15px;
+      text-align: center
+    }
+    .main .section1, .main .section2 {
+      flex-direction: column-reverse;
+    }
+  
+    .main .section1 .sec1-left, .main .section2 .sec2-left{
+      width: 100%;
+    }
+    
+    .main .section1 .sec1-left .buttons{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .main .section1 .sec1-left .buttons .email{
+      width: 50%;
+    }
+    
+    .main .section1 .sec1-left .buttons .btn{
+      width: 50%;
+    }
+    .main .section1 .sec1-right, .main .section2 .sec2-right{
+      width: 100%;
+    }
+  
+    .img{
+      width: 50%;
+      height: 300px;
+    }
+  
+    .hr{
+      display: none;
+    }
+  
+    .main .section2 .sec2-left{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .main .section3{
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .main .section3 .sec3-right{
+      align-items: center;
+    }
+  
+    .sec4-bottom ul li{
+      font-size: 16px;
+    }
+  }
+  
+  /* Large devices (laptops/desktops, 972px and up) */
+  @media only screen and (min-width: 972px) {
+    .h1{
+      font-size: 40px;
+      text-align: left;
+    }
+    
+    .p{
+      font-size: 17px;
+      text-align: left;
+    }
+    
+    .h2{
+      color: white;
+      font-size: 30px;
+      text-align: left;
+    }
+    
+    .p1{
+      color: white;
+      font-size: 15px;
+      text-align: left;
+    }
+  
+    .hr{
+      display: block;
+    }
+    .main .section1, .main .section2{
+      flex-direction: row;
+    }
+  
+    .main .section1 .sec1-left, .main .section2 .sec2-left{
+      width: 100%;
+    }
+    
+    .main .section1 .sec1-left .buttons{
+      flex-direction: row;
+    }
+    
+    .main .section1 .sec1-left .buttons .email{
+      width: 60%;
+    }
+    
+    .main .section1 .sec1-left .buttons .btn{
+      width: 30%;
+    }
+    .main .section1 .sec1-right, .main .section2 .sec2-right{
+      width: 100%;
+    }
+  
+    .img{
+      width: 80%;
+      height: auto;
+    }
+  
+    .main .section2 .sec2-left{
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+  
+    .main .section3{
+      flex-direction: row;
+    }
+  
+    .main .section3 .sec3-right{
+      align-items: flex-start;
+    }
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .h1{
+      font-size: 50px;
+    }
+    
+    .p{
+      font-size: 20px;
+    }
+    
+    .h2{
+      color: white;
+      font-size: 40px;
+    }
+    
+    .p1{
+      color: white;
+      font-size: 18px;
+    }
+  }
