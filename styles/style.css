@@ -5,3 +5,174 @@
   padding: 0;
   box-sizing: border-box;
 }
+li{
+    list-style: none;
+  }
+  
+  .logo{
+    height: 40px;
+  }
+  
+  .h1{
+    font-size: 50px;
+  }
+  
+  .p{
+    font-size: 20px;
+  }
+  
+  .h2{
+    color: white;
+    font-size: 40px;
+  }
+  
+  .p1{
+    color: white;
+    font-size: 18px;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+  }
+  
+  .header .header-right ul{
+    display: flex;
+    column-gap: 40px;
+  }
+  
+  .main{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .main .section1{
+    width: 100%;
+    display: flex;
+    margin: 50px;
+  }
+  
+  .main .section1 .sec1-left, .main .section2 .sec2-left{
+    width: 50%;
+    padding: 50px 80px 0px 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  
+  .main .section1 .sec1-left .buttons{
+    display: flex;
+    gap: 10px;
+  }
+  
+  .main .section1 .sec1-left .buttons .email{
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .main .section1 .sec1-left .buttons .btn{
+    width: 30%;
+    padding: 10px;
+    background: #036ffc;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+  }
+  .main .section1 .sec1-right, .main .section2 .sec2-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main .section2{
+    width: 100%;
+    display: flex;
+    background: rgb(224, 216, 216);
+  }
+  
+  .main .section2 .sec2-left, .main .section2 .sec2-right{
+    margin: 50px;
+  }
+  
+  .img{
+    width: 80%;
+    height: auto;
+  }
+  
+  .arrow{
+    display: inline;
+  }
+  
+  .hr{
+    width: 180px;
+    border: 1px solid rgb(16, 143, 83);
+  }
+  
+  .box{
+    width: 350px;
+    height: 250px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .img2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .main .section3{
+    width: 100%;
+    background: hsl(238, 22%, 44%);
+    display: flex;
+    
+  }
+  
+  .main .section3 .sec3-left, .main .section3 .sec3-right{
+    width: 50%;
+    margin: 50px;
+  }
+  
+  .main .section3 .sec3-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .main .section3 .sec3-right .email-ex{
+    width: 70%;
+    padding: 10px;
+  }
+  
+  .main .section3 .sec3-right .btn1{
+    width: 40%;
+    background: #036ffc;
+    color: white;
+    padding: 10px;
+    border-style: none;
+  }
+  
+  .main .section4{
+    background: hsl(243, 87%, 12%);
+    color: white;
+  }
+  
+  .main .section4 .sec4-top, .main .section4 .sec4-bottom{
+    margin: 50px;
+  }
+  
+  .sec4-bottom{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sec4-bottom ul li{
+    margin: 10px 0px;
+  }
+  
+  .icons{
+    display: flex;
+    gap: 10px;
+  }
